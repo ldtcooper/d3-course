@@ -1,6 +1,12 @@
 #chart{
-    width: 800px;
+    width: 1000px;
     height: 400px;
     background-color: #f7f7f7;
     margin: 25px auto;
+}
+
+.x-axis, .y-axis {
+    shape-rendering: crispEdges;
+    font-weight: bold;
+    font-size: 16px;
 }
